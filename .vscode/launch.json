@@ -8,14 +8,16 @@
             "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "${file}",
+            "args": "s"
         },
         {
             "type": "java",
-            "name": "Debug (Launch)-App<ws>",
+            "name": "Debug (Launch)-App<cell>",
             "request": "launch",
-            "mainClass": "ymok.App",
-            "projectName": "ws"
+            "mainClass": "akoamay.cell.App",
+            "projectName": "cell",
+            "args": "s"
         }
     ]
 }
